@@ -9,7 +9,16 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="javafx.base" level="project" />
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files/JavaFX/javafx-sdk-26.0.1/lib/javafx.base.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
