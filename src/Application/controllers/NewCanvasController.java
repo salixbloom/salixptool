@@ -40,7 +40,7 @@ public class NewCanvasController implements Initializable {
 
         calculatedSize.setText(calculatedString);
 
-        widthField.setOnInputMethodTextChanged(e -> {
+        widthField.setOnKeyTyped(e -> {
             String widthText = widthField.getText();
             try {
                 inputWidth = Integer.parseInt(widthText);
@@ -50,7 +50,7 @@ public class NewCanvasController implements Initializable {
             }
         });
 
-        heightField.setOnInputMethodTextChanged(e -> {
+        heightField.setOnKeyTyped(e -> {
             String heightText = heightField.getText();
             try {
                 inputHeight = Integer.parseInt(heightText);

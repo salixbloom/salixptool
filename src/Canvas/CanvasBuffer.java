@@ -8,7 +8,7 @@ import java.nio.IntBuffer;
 
 public class CanvasBuffer extends PixelBuffer<IntBuffer> {
 
-    public CanvasBuffer(final int theWidth, int theHeight) {
-        super(theWidth, theHeight, IntBuffer.allocate(theWidth * theHeight), PixelFormat.getIntArgbInstance());
+    public CanvasBuffer(final int theHeight, int theWidth) {
+        super(theHeight, theWidth, IntBuffer.allocate(theHeight * theWidth), PixelFormat.getIntArgbInstance());
     }
 }

@@ -21,7 +21,8 @@ public class CanvasController implements Initializable {
         myBuffer = null;
     }
 
-    public void createCanvas() {
-
+    public void createCanvas(final int theHeight, final int theWidth) {
+        canvasExists = true;
+        myBuffer = new CanvasBuffer(theHeight, theWidth);
     }
 }
